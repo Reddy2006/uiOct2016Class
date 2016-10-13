@@ -3,3 +3,21 @@
 3. git commit -m "<comment for the changes>"
 4. git pull origin <branch name>
 5. git push origin <branch name>
+
+
+
+
+
+1) git add ..     -> 
+2)git commit -m "Discription"
+3) git push origin Master
+
+
+
+
+
+
+Git pull upstream master 
+git fetch upstream -v
+git push origin master 
+
