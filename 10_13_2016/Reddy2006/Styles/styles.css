@@ -1,34 +1,19 @@
-/*span
-        {
-          display: block;
-        }
-*/
-       .button1 {background-color: #008CBA;}
-       .button2 {background-color: #f44336;}
 
-       form[name="newEmployeeForm"]{
-           border: 2px solid #000;
+form[name="newEmployeeForm"]{
+           border: 2px solid #bb3800;
            display: block;
        }
        label{
            display: block;
        }
 
-
-/*#reset{
-    color: #ff0000;
-}
-*/
 button[type="reset"]{
     background: #ff0000;
     color: #fff;
     border-color: #000;
-}
+    }
 button[type="submit"]{
     background: #345594;
     color: #fff;
     border-color: #000;
     }
-      /* div{
-           display: block;
-       }*/
