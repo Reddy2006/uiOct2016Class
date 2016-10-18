@@ -1,0 +1,97 @@
+<!--main document type of the web page-->
+<!DOCTYPE html>
+
+<!--default html language -->
+<html lang="en">
+  <!--head of the  page-->
+  <head>
+    <!--title - this is the title of this html file-->
+    <title>Employee Form</title>
+    <!--style - will use this in later assignments  - this is used to write CSS style on the html file itself-->
+    <style>
+    </style>
+    <!--link -  styles.css connecting to external file for css styles-->
+    <link href="../styles/styles.css" rel="stylesheet"/>
+    <!--meta - this is used to describe more meta information which are not covered by the above five-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=" employee sign in form "/>
+    <meta name="keywords" content="Employee, contact, Job, Training, UI Training,IIS_IT, EMP, Details, EmdDetails" />
+    <meta charset="UTF-8" />
+  </head>
+  <!--body of the web page-->
+  <  !--body is the rendering part of the html-->
+  <body>
+   <h3>IIS-IT</h3>
+   <ul>
+    <li>Innovative </li>
+    <li>Intelligent</li>
+    <li>Solutions</li>
+   </ul>
+   <!--main article for forms-->
+   <article>
+    <!--page header-->
+    <header>
+        <h3>New Employee Details</h3>
+    </header>
+    <!--main body of the page-->
+    <section>
+        <div>
+          <form name="newEmployeeForm">
+            <!--First Name-->
+            <Div>
+                <label for="firstName"> Applicant's First Name:</label>
+                <input type="text" id="firstName" name="fName" placeholder="Enter your First Name"/>
+            </Div>
+            <!--Last Name-->
+            <Div>
+                <label for="lastName">Applicant's Last Name:</label>
+                <input type="text" id="lastName" name="lName" placeholder="Enter your Last Name" />
+            </Div>
+            <!--Phone Number-->
+            <Div>
+                <label for="phoneNumber">Employee Contact Number:</label><input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
+            </Div>
+            <br />
+            <Div>
+                <label for="email">Employee E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your Email" />
+            </Div>
+            <!--Gender-->
+            <Div>
+                <label for="gender">Employee Gender:</label>
+                <Div id="gender">
+                    <!--male-->
+                    <label for="male">Male:</label>
+                    <input type="radio" id="male" name="gender" value="Male"/>
+                    <!--female-->
+                    <label for="female">Female:</label>
+                    <input type="radio" id="female" name="gender" value="Female"/>
+                </Div>
+            </Div>
+            <Div>
+                <!-- new employee of the complany-->
+                <label for="checkbox_new">New Employee</label>
+                <input type="checkbox" id="checkbox_new" name="new employee"/>
+                <!-- old Employee of the company -->
+                <label for="checkbox_old">Existing Employee</label>
+                <input type="checkbox" id="checkbox_old" name="existing employee"/>
+                <br/>
+            </Div>
+            <button type="submit" id="submit">
+                <Span>Submit</Span>
+            </button>
+            <!--reset/cancel-->
+            <button type="reset" id="reset">
+                <span>Cancel</span>
+            </button>
+        </form>
+        </div>
+    </section>
+    <!--footer of the page-->
+    <footer>
+        Innovative Intelligent Solutions,<br/>
+        42840 Christy St #108, Fremont, CA 94538.
+    </footer>
+   </article>
+  </body>
+</html>
