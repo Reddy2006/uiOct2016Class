@@ -1,0 +1,86 @@
+
+#main-heading{
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    background: #ff4059;
+    }
+#main-heading > nav{
+    left: 8%;
+    position: relative;
+    }
+form[name="newEmployeeForm"]{
+        border: 2px solid #000;
+        display: inline-block;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        background: #efdfe8;
+        }
+label{
+  display: block;
+  padding:100px,0;
+  }
+div{
+   padding: 10px 10px 10px 10px;
+   }
+input{
+    margin: 10px 10px 10px 10px;
+    }
+div{
+  display: block;
+  text-align: center;
+  }
+div > input{
+      background: #b6fafe;
+      }
+input[name="phoneNumber"]+label{
+     Position: absolute;
+     top: 270px;
+     color: #660000;
+     }
+ul {
+  list-style-type: none;
+  }
+li{
+  float: left;
+  display:block;
+  padding-left:100px;
+  padding-right: 10px;
+  }
+#main-section{
+      position: relative;
+      top: 96x;
+      }
+button[type="submit"]{
+    background: #6efa50;
+    color: #000;
+    border-color: #ce84e8;
+    border-radius: 8px;
+    cursor: auto;
+    }
+button[type="submit"]:hover{
+    background-color: #f4fbfe;
+    }
+button[type="reset"]{
+        background: #ff0000;
+        color: #0f0f0f;
+        border-color: #000;
+        border-radius: 8px;
+        }
+button[type="reset"]:hover{
+        background-color: #b8f7af;
+        cursor: auto;
+        }
+#main-footer{
+    position: fixed;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    background: #ff4059;
+    }
+main-footer > nav > ul li{
+    padding: 15px 12px;
+    }
+
